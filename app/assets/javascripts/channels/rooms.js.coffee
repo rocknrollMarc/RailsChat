@@ -17,7 +17,7 @@ jQuery(document).on 'turbolinks:load', ->
 
 		received: (data) ->
 			messages.append data['message']
-# Data received
+			messages_to_bottam()
 
 
 		send_message: (message, chat_room_id) ->
